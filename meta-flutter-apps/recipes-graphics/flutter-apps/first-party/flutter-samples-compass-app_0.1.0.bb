@@ -23,3 +23,5 @@ PUBSPEC_IGNORE_LOCKFILE = "1"
 FLUTTER_APPLICATION_PATH = "compass_app/app"
 
 inherit flutter-app
+
+do_compile[network] = "1"
